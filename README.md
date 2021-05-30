@@ -1,8 +1,8 @@
 # reddit-saved-to-notion
 
-A way to export your saved reddit posts to a Notion table.Uses [notion-sdk-py](https://github.com/ramnes/notion-sdk-py) and [praw](https://github.com/praw-dev/praw) for interacting with Notion and Reddit respectively.
+A way to export your saved reddit posts and comments to a Notion table.Uses [notion-sdk-py](https://github.com/ramnes/notion-sdk-py) and [praw](https://github.com/praw-dev/praw) for interacting with Notion and Reddit respectively.
 
-Writes to csv file. Reddit post is not updated in Notion if it is present in all csv file.
+Also writes your saved posts/comments into a csv file. The saved item is not updated in Notion if it is already present in the csv file.
 
 ## Pre-requisties
 * client_id and client_secret from Reddit. https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps
