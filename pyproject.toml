@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reddit-saved-to-notion"
+version = "0.1.0"
+description = "Export your saved Reddit posts to a Notion table"
+authors = ["mohan-cloud <example@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.2.4"
+praw = "^7.2.0"
+notion-client = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

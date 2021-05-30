@@ -1,0 +1,4 @@
+*.ipynb
+config.ini
+.vscode/
+*.csv
